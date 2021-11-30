@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  myapp:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-11-30T13:00:52.824969258Z"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 10.13.8
+    description: A Helm chart for Kubernetes
+    digest: b2964a18002f7a7d9701128adf0750ca6702bab6cd3b923f3d3407426f391f97
+    icon: https://cdn-icons.flaticon.com/png/512/3322/premium/3322965.png?token=exp=1638272942~hmac=b6f970dee100bdb9f26f6ba2326f8556
+    maintainers:
+    - email: mail@sachinbhosale.com
+      name: sachinb4u
+      url: https://sachinbhosale.com
+    name: myapp
+    type: application
+    urls:
+    - https://github.com/sachinb4u/helm-chart-demos/releases/download/myapp-0.1.1/myapp-0.1.1.tgz
+    version: 0.1.1
+generated: "2021-11-30T13:00:52.824981458Z"
