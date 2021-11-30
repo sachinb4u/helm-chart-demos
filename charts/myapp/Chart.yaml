@@ -1,6 +1,7 @@
 apiVersion: v2
 name: myapp
 description: A Helm chart for Kubernetes
+icon: https://cdn-icons.flaticon.com/png/512/3322/premium/3322965.png?token=exp=1638272942~hmac=b6f970dee100bdb9f26f6ba2326f8556
 
 # A chart can be either an 'application' or a 'library' chart.
 #
@@ -15,7 +16,7 @@ type: application
 # This is the chart version. This version number should be incremented each time you make changes
 # to the chart and its templates, including the app version.
 # Versions are expected to follow Semantic Versioning (https://semver.org/)
-version: 0.1.0
+version: 0.1.1
 
 # This is the version number of the application being deployed. This version number should be
 # incremented each time you make changes to the application. Versions are not expected to
@@ -28,3 +29,8 @@ dependencies:
     version: "10.13.8"
     repository: https://charts.bitnami.com/bitnami
     condition: postgresql.enabled
+
+maintainers:
+  - name: sachinb4u
+    email: mail@sachinbhosale.com
+    url: https://sachinbhosale.com
