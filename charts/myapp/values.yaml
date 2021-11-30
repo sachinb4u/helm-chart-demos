@@ -82,3 +82,12 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
+
+postgresql:
+  enabled: true
+  global:
+    postgresql:
+      postgresqlDatabase: "usersdb"
+      postgresqlPassword: "Hello@123"
+      postgresqlUsername: "userservice-pguser"
+      servicePort: "5432"
