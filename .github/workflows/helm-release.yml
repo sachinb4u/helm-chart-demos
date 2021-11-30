@@ -30,7 +30,7 @@ jobs:
       - name: Run User chart-releaser
         uses: helm/chart-releaser-action@v1.2.1
         env:
-          CR_TOKEN: "$GITHUB_TOKEN"
+          CR_TOKEN: "${{ secrets.REPO_TOKEN }}"
           CR_SKIP_EXISTING: true
         with:
           charts_dir: charts
